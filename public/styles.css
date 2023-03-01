@@ -1,0 +1,274 @@
+
+a:hover{
+  color: #678983;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #F6F6F6;
+  background-size: 100%;
+  /* text-align: center; */
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1.5;
+  size: 3.5rem;
+}
+
+h2{
+  font-family:'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+h3{
+  text-align: center;
+}
+span{
+  color: #9340FF;
+  font-weight: 800;
+}
+ul{
+  margin-left: 400px
+}
+.navbar{
+  background-color: #101728;
+  padding: 2% 0 2% ;
+}
+.brand-logo{
+  height: 3rem
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  color: #F6F6F6;
+  font-family: 'Open Sans', sans-serif;
+}
+.top {
+  background-color: #101728;
+  padding: 1% 15% 0%;
+  color: #F6F6F6;
+}
+#testimonials{
+  text-align: center;
+  color: #F6F6F6;
+  margin-top: 10%;
+  background-color: #101728;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#features{
+  color: #F6F6F6;
+  display: block;
+  background-color: #101728;
+  text-align: center;
+
+}
+#business-insider{
+  background-color: #F6F6F6;
+  padding: 7% 10%;
+  text-align: center;
+  color: #101728;
+}
+.card1{
+  background-color: #101728;
+  color: #F6F6F6;
+  padding: 10% 10%
+}
+
+.client{
+  width: 10%
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.footer{
+  padding: 2% 15% 2%;
+  text-align: center;
+  background-color: #101728;
+  color: #F6F6F6;
+}
+.growthx{
+  width: 80%;
+  /* position: absolute; */
+  /* right: 20%; */
+  height: 70%;
+  padding: 10% 0 0;
+  margin-left: 40%
+
+}
+.header{
+  margin-top: 30%
+}
+#home{
+  background-color:  #F6F6F6;
+  text-align: center;
+}
+#services{
+background-color:  #F6F6F6;
+color: #101728;
+padding: 7% 14%;
+text-align: center;
+}
+.label{
+  text-align: left;
+}
+#contact{
+  color: #101728;
+  padding: 5% 7%;
+  background-size: 100%;
+}
+#learn-more{
+  background-color:  #F6F6F6;
+  color: #101728;
+  padding: 3% 7%;
+  text-align: center;
+  width: 100%;
+  /* margin: 10px auto 10px auto; */
+  line-height: 2
+
+}
+
+.digital{
+  float: right;
+  padding-right:  10%;
+  padding-top: 5%
+}
+.form-control{
+  padding: 2% ;
+  width: 100%
+}
+.custom-checkbox{
+  padding: 2% 0
+}
+.btn-dark{
+    background-color: #101728;
+    color: #F6F6F6;
+}
+.service-link{
+  text-decoration: none;
+  color: #101728;
+  font-family: 'Ubuntu';
+}
+.grow{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.feature-box{
+  padding: 5%;
+}
+.foot{
+  padding: 3%;
+  color:   #F6F6F6;
+}
+.call{
+  width: 70%;
+  margin-right: 70%
+}
+.social{
+  padding: 3%
+}
+.email-link{
+color:   #F6F6F6;
+text-decoration: none;
+}
+.footer-link{
+font-family: 'Montserrat', sans-serif;
+padding: 1%;
+
+}
+.Success{
+  padding: 5% 0
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.seo-img{
+  width: 110%;
+  height: 50%;
+}
+@media (max-width:1010px){
+.growthx{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+  }
+  #testimonials{
+    padding: 0 5%;
+  }
+  .call{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .navbar-toggler{
+    margin-left: 10%
+  }
+.col-sm-4{
+  padding: 1% 0
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50%;
+}
+
+}
+.bg-modal{
+  background-color: #F6F6F6;
+  color: #101728;
+}
+.modal-header{
+  background-color: #9340FF;
+}
+.required:after{
+  content: "*";
+  color: red;
+}
+
+/* .modal-content{
+
+position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: #F6F6F6;
+  border-radius: 4px;
+  padding: 20px
+} */
+/* .close{
+  color: #F6F6F6;
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 44px;
+  cursor: pointer;
+  transform: rotate(45deg);
+
+} */
+.custom-checkbox{
+  padding:  5%
+}
+.contact-container{
+  padding: 2% 0 10%
+}
